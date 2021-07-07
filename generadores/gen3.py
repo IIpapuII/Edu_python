@@ -15,7 +15,7 @@ def suma_igual_4(rango):
             yield datos
         num= num+1
 
-salida = suma_igual_4(100)
+salida = suma_igual_4(int(input("Ingrese el rango de numeros: ")))
 for i in salida:
     print("los numeros que suman 4 son: ",i)
 
